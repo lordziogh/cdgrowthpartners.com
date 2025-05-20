@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With Us | CD Growth Partners</title>
+    <link rel="stylesheet" href="styles.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Navbar */
+.navbar {
+    background: #0f9203 !important; /* Solid black background for clear visibility */
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+.navbar-brand, .nav-link {
+    color: white !important; /* Ensures contrast */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Gold hover effect */
+}
+
+
+
+/* Sticky Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #000000; /* Solid black for high contrast */
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+/* Adjust body padding to prevent content overlap */
+body {
+    padding-top: 70px; /* Ensures content is visible below navbar */
+    background: linear-gradient(to right, #000000, #243B55);
+}
+
+/* Navbar Link Styling */
+.navbar-brand, .nav-link {
+    color: white !important; /* High contrast */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Gold hover effect */
+}
+#scrollProgress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: #FFD700;
+    z-index: 1000;
+    transition: width 0.1s ease-in-out;
+}
+/* Header Styling */
+.header {
+    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    color: rgb(7, 165, 33);
+    text-align: center;
+    padding: 60px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Partnership Section */
+.partner-section {
+
+    background: linear-gradient(to right, #d6ffd6, #ffffff, #fff5b9);
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Partnership Content */
+.partnership-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Info Boxes */
+.info {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.info:hover {
+    transform: scale(1.05);
+}
+
+/* Headers Inside Section */
+h3 {
+    color: #019131;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 8px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    color:#019131 !important;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Dropdown Styling */
+select[name="partnership_type"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover & Focus Effects */
+select[name="partnership_type"]:hover,
+select[name="partnership_type"]:focus {
+    background-color: #eaf4ff;
+    border-color: #FFA500;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">CD Growth Partners Ltd.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog / Insights</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                <li class="nav-item">
+                    <a class="btn btn-warning fw-bold" href="#partner"> 🤝Partner With Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>🤝 Partner With Us</h1>
+    </header>
+
+    <!-- Partnership Section -->
+    <section id="partner" class="partner-section">
+        <div class="container">
+            <h2 class="fw-bold text-center text-success">Join Our Growing Network</h2>
+            <p class="text-center">Collaborate with us for business success and lasting impact.</p>
+
+            <div class="partnership-content">
+                <div class="info">
+                    <h3>🌎 Why Partner With Us?</h3>
+                    <ul>
+                        <li>🚀 Expand market reach with our expertise</li>
+                        <li>💡 Leverage innovative business solutions</li>
+                        <li>📈 Drive sustainable growth with strategic partnerships</li>
+                        <li>🔗 Access a network of industry leaders</li>
+                    </ul>
+                </div>
+
+                <div class="info">
+                    <h3>🤝 Partnership Opportunities</h3>
+                    <ul>
+                        <li>🔹 Joint Ventures & Collaborations</li>
+                        <li>🔹 Investment & Funding Partnerships</li>
+                        <li>🔹 Strategic Alliances & Brand Collaborations</li>
+                        <li>🔹 Technology & Service Integrations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Partnership Request Form -->
+            <div class="partnership-form">
+                <marquee behavior="scroll"direction="right-left"><h3>📩 Request a Partnership</h3></marquee>
+                <form  id="partner" class="contact-form" action="process_partner.php" method="POST">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <select class="mb-3" name="partnership_type" id="partnership_type" required>
+                        <option value="Partnership_type" placeholder="">Partnership Type</option>
+                        <option value="Joint Ventures & Collaborations">Joint Ventures & Collaborations</option>
+                        <option value="Investment & Funding Partnerships">Investment & Funding Partnerships</option>
+                        <option value="Strategic Alliances & Brand Collaborations">Strategic Alliances & Brand Collaborations</option>
+                        <option value="Technology & Service Integrations">Technology & Service Integrations</option>
+                    </select>                    
+                    <textarea name="message" placeholder="Describe your partnership interest..." required></textarea>
+                    <button type="submit" class="btn btn-success">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 CD Growth Partners Ltd. | Business Reg No: CS072730425</p>
+            <p>
+                <a href="#home">Home</a> | 
+                <a href="#about">About</a> | 
+                <a href="#services">Services</a> | 
+                <a href="#contact">Contact</a> | 
+                <a href="#blog">Blog</a>
+            </p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="mailto:info@cdgrowthpartners.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Progress Script -->
+    <script>
+        window.onscroll = function() {
+            let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let progress = (scrollTop / scrollHeight) * 100;
+            document.getElementById("scrollProgress").style.width = progress + "%";
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
